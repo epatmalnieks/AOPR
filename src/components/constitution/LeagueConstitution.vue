@@ -1,15 +1,17 @@
 <template>
-  <h1>Annexation of Puerto Rico</h1>
-  <h2>Fantasy Football League Constitution</h2>
-  <league-structure />
-  <rosters />
-  <scoring />
-  <schedule />
-  <playoffs />
-  <finances />
-  <draft />
-  <player-transactions />
-  <voting-records />
+  <div class="league-constitution">
+    <h1>Annexation of Puerto Rico</h1>
+    <h2>Fantasy Football League Constitution</h2>
+    <league-structure />
+    <rosters />
+    <scoring />
+    <schedule />
+    <playoffs />
+    <finances />
+    <draft />
+    <player-transactions />
+    <voting-records />
+  </div>
 </template>
 
 <script>
@@ -38,4 +40,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.league-constitution {
+  box-shadow: 0 calcRems(4) calcRems(8) calcRems(4) gray;
+  margin-top: calcRems(16);
+}
+</style>

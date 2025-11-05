@@ -1,5 +1,7 @@
 <template>
-  <league-constitution />
+  <div class="app-container">
+    <league-constitution />
+  </div>
 </template>
 
 <script>
@@ -12,4 +14,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.app-container {
+  font-family: 'Libre Baskerville', serif;
+  margin: calcRems(8);
+}
+</style>
