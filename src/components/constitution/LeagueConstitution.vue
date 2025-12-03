@@ -1,5 +1,8 @@
 <template>
   <div class="league-constitution">
+    <div class="league-constitution-link">
+      <router-link to="/rosters">Go to Rosters</router-link>
+    </div>
     <h1>Annexation of Puerto Rico</h1>
     <h2>Fantasy Football League Constitution</h2>
     <league-structure />
@@ -47,5 +50,9 @@ export default {
   box-shadow: 0 calcRems(4) calcRems(8) calcRems(4) $gray;
   margin: calcRems(8);
   padding: calcRems(16) calcRems(8);
+}
+
+.league-constitution-link {
+  text-align: right;
 }
 </style>

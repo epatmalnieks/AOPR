@@ -1,13 +1,3 @@
 <template>
-  <league-constitution />
+  <router-view />
 </template>
-
-<script>
-import LeagueConstitution from './components/constitution/LeagueConstitution.vue';
-
-export default {
-  components: {
-    LeagueConstitution,
-  },
-};
-</script>
