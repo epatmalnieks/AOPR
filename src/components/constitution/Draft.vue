@@ -2,8 +2,8 @@
   <h3>Draft</h3>
   <ul>
     <li>
-      The nomination order will correlate with the bingo balls drawn here
-      (Drawing For Divisions)
+      The nomination order will correlate with the bingo balls drawn
+      <a href="#drawing-for-divisions">here</a>
     </li>
     <li>Each owner has a default salary cap of $300 without any keepers</li>
     <li>
@@ -33,7 +33,3 @@
     </li>
   </ul>
 </template>
-
-<script></script>
-
-<style scoped></style>

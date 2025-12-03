@@ -8,7 +8,7 @@
   <span>Five teams in each division for a total of 10 teams</span>
   <h4>Division Names</h4>
   <span>AFC and NFC</span>
-  <h4>Drawing For Divisions</h4>
+  <h4 id="drawing-for-divisions">Drawing For Divisions</h4>
   <ul>
     <li>
       Bingo balls labeled B1 - B10 will represent each team from last year's
@@ -69,7 +69,3 @@
     </tbody>
   </table>
 </template>
-
-<script></script>
-
-<style lang="scss" scoped></style>

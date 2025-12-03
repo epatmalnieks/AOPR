@@ -20,7 +20,3 @@
     <li>Five votes are needed to veto</li>
   </ul>
 </template>
-
-<script></script>
-
-<style scoped></style>

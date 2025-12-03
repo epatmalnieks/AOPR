@@ -1,0 +1,13 @@
+@function calcRems($pixels) {
+    @return calc($pixels / 16) * 1rem;
+}
+
+$gray-light-5: #f8f9faff;
+$gray-light-4: #e9ecefff;
+$gray-light-3: #dee2e6ff;
+$gray-light-2: #ced4daff;
+$gray-light-1: #adb5bdff;
+$gray: #6c757dff;
+$gray-dark-1: #495057ff;
+$gray-dark-2: #343a40ff;
+$gray-dark-3: #212529ff;

@@ -1,0 +1,96 @@
+@use './_variables' as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  color: $gray-dark-3;
+  font-size: calcRems(28);
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: $gray-dark-3;
+  font-size: calcRems(22);
+  margin: calcRems(16) 0 0;
+  text-align: center;
+}
+
+h3 {
+  color: $gray-dark-3;
+  font-size: calcRems(18);
+  margin: calcRems(16) 0 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h4 {
+  color: $gray;
+  font-size: calcRems(14);
+  margin: calcRems(16) 0 0;
+}
+
+h5 {
+  color: $gray;
+  font-size: calcRems(12);
+  margin: calcRems(16) 0 0;
+}
+
+a {
+  font-size: calcRems(12);
+}
+
+span {
+  color: $gray-dark-2;
+  font-size: calcRems(12);
+}
+
+ul {
+  margin: calcRems(4) 0 0;
+  padding-left: calcRems(12);
+}
+
+li {
+  color: $gray-dark-2;
+  font-size: calcRems(12);
+  margin-top: calcRems(8);
+
+  &::marker {
+    color: $gray;
+  }
+}
+
+table {
+  border: calcRems(1) solid $gray-light-3;
+  border-collapse: collapse;
+  margin: calcRems(8) 0 0;
+  text-align: center;
+  width: 100%;
+
+  tr:nth-child(even) {
+    background-color: $gray-light-4;
+  }
+
+  th {
+    border-bottom: calcRems(1) solid $gray-light-3;
+    color: $gray-dark-1;
+    font-size: calcRems(12);
+    font-weight: bold;
+  }
+
+  td {
+    color: $gray-dark-2;
+    font-size: calcRems(12);
+    padding: calcRems(4);
+  }
+}
+
+hr {
+  border-color: $gray-light-3;
+}

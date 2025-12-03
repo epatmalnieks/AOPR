@@ -289,7 +289,3 @@
     </tbody>
   </table>
 </template>
-
-<script></script>
-
-<style scoped></style>

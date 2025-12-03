@@ -41,8 +41,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use '../../styles/_variables' as *;
+
 .league-constitution {
-  box-shadow: 0 calcRems(4) calcRems(8) calcRems(4) gray;
-  margin-top: calcRems(16);
+  box-shadow: 0 calcRems(4) calcRems(8) calcRems(4) $gray;
+  margin: calcRems(8);
+  padding: calcRems(16) calcRems(8);
 }
 </style>

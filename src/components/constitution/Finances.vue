@@ -1,8 +1,9 @@
 <template>
   <h3>Finances</h3>
-  <span>Entry Fee is $100</span>
+  <h4>Entry Fee</h4>
+  <span>$100</span>
   <h4>Payouts</h4>
-  <table>
+  <table class="finances-table">
     <tbody>
       <tr>
         <td>Super Bowl winner</td>
@@ -21,13 +22,19 @@
         <td>$100</td>
       </tr>
       <tr>
-        <td>Total =</td>
+        <td class="finances-total">Total</td>
         <td>$1,000</td>
       </tr>
     </tbody>
   </table>
 </template>
 
-<script></script>
+<style lang="scss" scoped>
+.finances-table {
+  text-align: right;
+}
 
-<style scoped></style>
+.finances-total {
+  font-weight: bold;
+}
+</style>

@@ -1,6 +1,6 @@
 <template>
   <h3>Voting Records</h3>
-  <h4>2016</h4>
+  <h4 class="voting-records-2016">2016</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
     <li>
@@ -15,6 +15,7 @@
   <ul>
     <li>None</li>
   </ul>
+  <hr></hr>
   <h4>2017</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
@@ -24,6 +25,7 @@
   <ul>
     <li>Start two kickers</li>
   </ul>
+  <hr></hr>
   <h4>2018</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
@@ -41,6 +43,7 @@
   <ul>
     <li>None</li>
   </ul>
+  <hr></hr>
   <h4>2019</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
@@ -55,6 +58,7 @@
   <ul>
     <li>None</li>
   </ul>
+  <hr></hr>
   <h4>2021</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
@@ -64,6 +68,7 @@
   <ul>
     <li>Add a 5 year cap for keepers</li>
   </ul>
+  <hr></hr>
   <h4>2022</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
@@ -73,6 +78,7 @@
   <ul>
     <li>None</li>
   </ul>
+  <hr></hr>
   <h4>2023</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
@@ -82,6 +88,7 @@
   <ul>
     <li>None</li>
   </ul>
+  <hr></hr>
   <h4>2024</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
@@ -91,6 +98,7 @@
   <ul>
     <li>None</li>
   </ul>
+  <hr></hr>
   <h4>2025</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
@@ -118,6 +126,14 @@
   </ul>
 </template>
 
-<script></script>
+<style lang="scss" scoped>
+@use '../../styles/_variables' as *;
 
-<style scoped></style>
+h4 {
+  margin: 0;
+}
+
+.voting-records-2016 {
+  margin-top: calcRems(16);
+}
+</style>
