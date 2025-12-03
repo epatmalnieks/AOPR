@@ -1,7 +1,10 @@
 <template>
   <h3>Draft</h3>
   <ul>
-    <li>The nomination order will correlate with the bingo balls drawn here</li>
+    <li>
+      The nomination order will correlate with the bingo balls drawn here
+      (Drawing For Divisions)
+    </li>
     <li>Each owner has a default salary cap of $300 without any keepers</li>
     <li>
       A player is nominated for auction by the next owner up in the nomination

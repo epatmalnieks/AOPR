@@ -13,6 +13,12 @@
       for one random team twice
     </li>
   </ul>
+  <h4>Week 18</h4>
+  <span>
+    In Week 18, owners in the division whose total points combined is lower than
+    the other division must provide food and snacks at the following year's
+    draft.
+  </span>
 </template>
 
 <script></script>

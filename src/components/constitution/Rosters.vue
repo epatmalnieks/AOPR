@@ -76,14 +76,11 @@
       A player that was a free agent acquisition is not eligible to be kept
     </li>
     <li>A player that was dropped is not eligible to be kept</li>
+    <li>Keepers are due one week before the draft</li>
     <li>
-      Keepers will be due the day of the draft. League owners will write their
-      keepers down and silently give them to the commissioner.
-    </li>
-    <li>
-      Example: Tom Brady has been drafted for $25 in 2021. Tom Brady's keeper
-      cost in 2022 would be $30. The team that owns Brady would then begin the
-      auction with a total of $270 (normally $300 without any keepers)
+      Example: Patrick Mahomes has been drafted for $35 in 2025. His keeper cost
+      in 2026 would be $40. The team that owns Mahomes would then begin the
+      auction with a total of $260 (normally $300 without any keepers)
     </li>
   </ul>
 </template>

@@ -15,7 +15,7 @@
   <h4>Trades</h4>
   <ul>
     <li>There is no trade limit</li>
-    <li>Trade deadline is ??????????</li>
+    <li>Trade deadline is the Wednesday of Week 13</li>
     <li>Trade review period is one day</li>
     <li>Five votes are needed to veto</li>
   </ul>

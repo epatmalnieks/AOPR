@@ -6,7 +6,7 @@
   <span>Entire NFL</span>
   <h4>League Size</h4>
   <span>Five teams in each division for a total of 10 teams</span>
-  <h4>Divisions Names</h4>
+  <h4>Division Names</h4>
   <span>AFC and NFC</span>
   <h4>Drawing For Divisions</h4>
   <ul>

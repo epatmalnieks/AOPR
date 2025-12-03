@@ -1,8 +1,8 @@
 <template>
   <h3>Playoffs</h3>
   <ul>
-    <li>The top six teams make the playoffs</li>
-    <li>The top two teams get bye weeks in the first round</li>
+    <li>The top six teams with the best record make the playoffs</li>
+    <li>The winner of each division gets a bye week in the first round</li>
     <li>Each playoff matchup is one week long</li>
     <li>
       In the event of multiple teams having the same record, the team with the

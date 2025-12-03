@@ -94,11 +94,27 @@
   <h4>2025</h4>
   <h5>Topics the league voted on and passed</h5>
   <ul>
-    <li>None</li>
+    <li>
+      In Week 18, owners in the division whose total points combined is lower
+      than the other division must provide food and snacks at the following
+      year's draft.
+    </li>
+    <li>Keepers will be due one week before the draft.</li>
+    <li>League fee will increase from $50 to $100.</li>
+    <li>
+      Payouts will increase as follows:
+      <ul>
+        <li>$100 per person x 10 people = $1,000 in rewards</li>
+        <li>Super bowl winner - $500</li>
+        <li>Super bowl loser - $250</li>
+        <li>Most points at the end of the regular season - $150</li>
+        <li>Second most points at the end of the regular season - $100</li>
+      </ul>
+    </li>
   </ul>
   <h5>Topics the league voted on and failed</h5>
   <ul>
-    <li>None</li>
+    <li>Removing kickers and D/ST roster positions.</li>
   </ul>
 </template>
 
