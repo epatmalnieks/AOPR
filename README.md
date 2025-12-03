@@ -1,7 +1,7 @@
-Annexation of Puerto Rico
+# Annexation of Puerto Rico
 
-Run the app:
+## Run the app locally:
 
 ```sh
-nvm run dev
+npm run dev
 ```
