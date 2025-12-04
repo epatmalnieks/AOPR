@@ -2,7 +2,7 @@
   <div class="league-constitution">
     <div class="league-constitution-link">
       <router-link to="/draft-results-and-keepers">
-        Go to Draft Results & Keepers
+        Draft Results & Keepers
       </router-link>
     </div>
     <h1>Annexation of Puerto Rico</h1>
