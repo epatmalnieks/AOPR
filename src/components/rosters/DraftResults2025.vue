@@ -1,7 +1,39 @@
 <template>
-  <h4>2025 Draft Results</h4>
+  <h3>2025 Draft Results</h3>
+  <h4>Nomination Order / Divisions</h4>
+  <div>
+    <a href="#Kevin">Kevin</a>
+  </div>
+  <div>
+    <a href="#Ryan">Ryan</a>
+  </div>
+  <div>
+    <a href="#Mike">Mike</a>
+  </div>
+  <div>
+    <a href="#Chad">Chad</a>
+  </div>
+  <div>
+    <a href="#Erik">Erik</a>
+  </div>
+  <hr></hr>
+  <div>
+    <a href="#Bill">Bill</a>
+  </div>
+  <div>
+    <a href="#Adam">Adam</a>
+  </div>
+  <div>
+    <a href="#Paco">Paco</a>
+  </div>
+  <div>
+    <a href="#Wade">Wade</a>
+  </div>
+  <div>
+    <a href="#Matt">Matt</a>
+  </div>
   <div v-for="roster in rosters" :key="roster.id">
-    <h5>{{ roster.owner }}</h5>
+    <h5 :id="roster.owner">{{ roster.owner }}</h5>
     <div>
       <span>Salary Cap: ${{ roster.salaryCap }}</span>
     </div>
