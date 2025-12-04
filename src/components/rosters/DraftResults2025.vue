@@ -1,4 +1,9 @@
 <template>
+  <!-- <button @click="add5ToEachPlayer">Add $5 to each player</button>
+  <pre v-for="roster in rosters" :key="roster.id">
+    {{ roster }}
+  </pre> -->
+
   <h3>2025 Draft Results</h3>
   <h4>Nomination Order / Divisions</h4>
   <div>
@@ -16,7 +21,7 @@
   <div>
     <a href="#Erik">Erik</a>
   </div>
-  <hr></hr>
+  <hr />
   <div>
     <a href="#Bill">Bill</a>
   </div>
@@ -89,6 +94,20 @@ export default {
   },
 
   methods: {
+    add5ToEachPlayer() {
+      this.rosters = this.rosters.map((roster) => {
+        return {
+          ...roster,
+          players: roster.players.map((player) => {
+            return {
+              ...player,
+              salary: player.salary + 5,
+            };
+          }),
+        };
+      });
+    },
+
     getAdamRoster() {
       this.rosters.push({
         id: 1,
