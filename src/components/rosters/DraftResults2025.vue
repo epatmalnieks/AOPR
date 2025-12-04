@@ -57,7 +57,11 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="player in roster.players" :key="player.name">
+        <tr
+          v-for="player in roster.players"
+          :key="player.name"
+          :class="getRowClass(player)"
+        >
           <td>{{ player.position }}</td>
           <td>
             {{ player.name }}
@@ -891,6 +895,10 @@ export default {
         ],
         salaryCap: 300,
       });
+    },
+
+    getRowClass(player) {
+      return player.isKeeperEligible ? 'draft-results-keeper-eligible' : '';
     },
 
     getRyanRoster() {
