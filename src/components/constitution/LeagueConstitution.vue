@@ -1,7 +1,9 @@
 <template>
   <div class="league-constitution">
     <div class="league-constitution-link">
-      <router-link to="/rosters">Go to Rosters</router-link>
+      <router-link to="/draft-results-and-keepers">
+        Go to Draft Results & Keepers
+      </router-link>
     </div>
     <h1>Annexation of Puerto Rico</h1>
     <h2>Fantasy Football League Constitution</h2>

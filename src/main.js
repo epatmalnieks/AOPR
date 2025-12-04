@@ -4,7 +4,7 @@ import App from './App.vue';
 import './styles/global.scss';
 
 import LeagueConstitution from './components/constitution/LeagueConstitution.vue';
-import Rosters from './components/rosters/Rosters.vue';
+import DraftResultsAndKeepers from './components/rosters/DraftResultsAndKeepers.vue';
 
 const routes = [
   {
@@ -16,8 +16,8 @@ const routes = [
     path: '/league-constitution',
   },
   {
-    component: Rosters,
-    path: '/rosters',
+    component: DraftResultsAndKeepers,
+    path: '/draft-results-and-keepers',
   },
 ];
 

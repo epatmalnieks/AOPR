@@ -5,18 +5,21 @@
     </router-link>
   </div>
   <h1>Annexation of Puerto Rico</h1>
-  <h2>Rosters</h2>
+  <h2>Draft Results and Keepers</h2>
+  <draft-results-2025 />
 </template>
 
 <script>
+import DraftResults2025 from './DraftResults2025.vue';
+
 export default {
-  components: {},
+  components: {
+    DraftResults2025,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-@use '../../styles/_variables' as *;
-
 .rosters-link {
   text-align: right;
 }
