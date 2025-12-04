@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import App from './App.vue';
 import './styles/global.scss';
 
-import DraftResultsAndKeepers from './components/DraftResultsAndKeepers/DraftResultsAndKeepers.vue';
+import DraftResultsAndKeepers from './components/draftResultsAndKeepers/DraftResultsAndKeepers.vue';
 import History from './components/history/History.vue';
 import LeagueConstitution from './components/constitution/LeagueConstitution.vue';
 
