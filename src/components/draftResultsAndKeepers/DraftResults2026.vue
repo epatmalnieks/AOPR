@@ -4,49 +4,11 @@
     {{ roster }}
   </pre> -->
 
-  <h3>2025 Draft Results</h3>
-  <h4>Nomination Order / Divisions</h4>
-  <div>
-    <a href="#Kevin">Kevin</a>
-  </div>
-  <div>
-    <a href="#Ryan">Ryan</a>
-  </div>
-  <div>
-    <a href="#Mike">Mike</a>
-  </div>
-  <div>
-    <a href="#Chad">Chad</a>
-  </div>
-  <div>
-    <a href="#Erik">Erik</a>
-  </div>
-  <hr />
-  <div>
-    <a href="#Bill">Bill</a>
-  </div>
-  <div>
-    <a href="#Adam">Adam</a>
-  </div>
-  <div>
-    <a href="#Paco">Paco</a>
-  </div>
-  <div>
-    <a href="#Wade">Wade</a>
-  </div>
-  <div>
-    <a href="#Matt">Matt</a>
-  </div>
+  <h3>2026 Keeper Eligible Players</h3>
   <div v-for="roster in rosters" :key="roster.id">
     <h5 :id="roster.owner">{{ roster.owner }}</h5>
     <div>
       <span>Salary Cap: ${{ roster.salaryCap }}</span>
-    </div>
-    <div>
-      <span>Money Spent: ${{ getMoneySpent(roster) }}</span>
-    </div>
-    <div>
-      <span>Carry Over: ${{ getCarryOver(roster) }}</span>
     </div>
     <table>
       <thead>
@@ -120,92 +82,85 @@ export default {
           {
             name: 'Jalen Hurts',
             position: 'QB',
-            salary: 65,
+            salary: 70,
           },
           {
             name: 'TreVeyon Henderson',
             position: 'RB',
-            salary: 26,
+            salary: 31,
           },
           {
             name: "De'Von Achane",
             position: 'RB',
-            salary: 42,
+            salary: 47,
           },
           {
-            isKeeper: true,
             name: 'Malik Nabers',
             position: 'WR',
-            salary: 42,
+            salary: 47,
           },
           {
-            isKeeper: true,
             name: 'Terry McLaurin',
             position: 'WR',
-            salary: 15,
+            salary: 20,
           },
           {
             name: 'George Kittle',
             position: 'TE',
-            salary: 34,
+            salary: 39,
           },
           {
             name: 'Alvin Kamara',
             position: 'FLEX',
-            salary: 29,
+            salary: 34,
           },
           {
             name: 'Justin Herbert',
             position: 'OP',
-            salary: 16,
+            salary: 21,
           },
           {
             name: 'Eagles',
             position: 'D/ST',
-            salary: 0,
+            salary: 5,
           },
           {
             name: 'Cameron Dicker',
             position: 'K',
-            salary: 0,
+            salary: 5,
           },
           {
             name: 'Caleb Williams',
             position: 'B',
-            salary: 18,
+            salary: 23,
           },
           {
             name: 'Jaylen Waddle',
             position: 'B',
-            salary: 9,
+            salary: 14,
           },
           {
             name: 'Rashid Shaheed',
             position: 'B',
-            salary: 0,
+            salary: 5,
           },
           {
             name: 'Javonte Williams',
             position: 'B',
-            salary: 3,
-          },
-          {
-            name: 'Christian Kirk',
-            position: 'B',
-            salary: 0,
+            salary: 8,
           },
           {
             name: 'Quinshon Judkins',
             position: 'B',
-            salary: 0,
+            salary: 5,
           },
           {
             name: 'Darnell Mooney',
             position: 'B',
-            salary: 0,
+            salary: 5,
           },
         ],
-        salaryCap: 300,
+        salaryCap: 301,
       });
     },
 
@@ -215,94 +170,62 @@ export default {
         owner: 'Bill',
         players: [
           {
-            isKeeper: true,
             name: 'Jordan Love',
             position: 'QB',
-            salary: 12,
+            salary: 17,
           },
           {
             name: 'Jahmyr Gibbs',
             position: 'RB',
-            salary: 73,
+            salary: 78,
           },
           {
             name: 'Derrick Henry',
             position: 'RB',
-            salary: 57,
+            salary: 62,
           },
           {
             name: 'CeeDee Lamb',
             position: 'WR',
-            salary: 62,
+            salary: 67,
           },
           {
             name: 'Mike Evans',
             position: 'WR',
-            salary: 40,
-          },
-          {
-            name: 'Mark Andrews',
-            position: 'TE',
-            salary: 18,
+            salary: 45,
           },
           {
             name: 'Chris Olave',
             position: 'FLEX',
-            salary: 18,
+            salary: 23,
           },
           {
-            isKeeper: true,
             name: 'Baker Mayfield',
             position: 'OP',
-            salary: 7,
-          },
-          {
-            name: 'Ravens',
-            position: 'D/ST',
-            salary: 0,
+            salary: 12,
           },
           {
             name: 'Jake Bates',
             position: 'K',
-            salary: 3,
-          },
-          {
-            name: 'Cooper Kupp',
-            position: 'B',
-            salary: 4,
+            salary: 8,
           },
           {
             name: 'Rashee Rice',
             position: 'B',
-            salary: 2,
-          },
-          {
-            name: 'Cade Otton',
-            position: 'B',
-            salary: 0,
-          },
-          {
-            name: 'Packers',
-            position: 'B',
-            salary: 1,
+            salary: 7,
           },
           {
             name: 'Chris Godwin',
             position: 'B',
-            salary: 0,
-          },
-          {
-            name: 'Jalen Milroe',
-            position: 'B',
-            salary: 0,
+            salary: 5,
           },
           {
             name: 'Blake Corum',
             position: 'B',
-            salary: 0,
+            salary: 5,
           },
         ],
-        salaryCap: 300,
+        salaryCap: 303,
       });
     },
 
@@ -316,91 +239,54 @@ export default {
         owner: 'Chad',
         players: [
           {
-            name: 'Geno Smith',
-            position: 'QB',
-            salary: 17,
-          },
-          {
-            isKeeper: true,
             name: 'Saquon Barkley',
             position: 'RB',
-            salary: 56,
-          },
-          {
-            name: 'Chuba Hubbard',
-            position: 'RB',
-            salary: 33,
+            salary: 61,
           },
           {
             name: 'Puka Nacua',
             position: 'WR',
-            salary: 51,
+            salary: 56,
           },
           {
             name: 'Tee Higgins',
             position: 'WR',
-            salary: 45,
+            salary: 50,
           },
           {
-            isKeeper: true,
             name: 'Brock Bowers',
             position: 'TE',
-            salary: 6,
+            salary: 11,
           },
           {
             name: 'Ricky Pearsall',
             position: 'FLEX',
-            salary: 10,
+            salary: 15,
           },
           {
             name: 'Brock Purdy',
             position: 'OP',
-            salary: 36,
-          },
-          {
-            name: 'Chargers',
-            position: 'D/ST',
-            salary: 0,
-          },
-          {
-            name: 'Evan McPherson',
-            position: 'K',
-            salary: 0,
+            salary: 41,
           },
           {
             name: 'Kenneth Walker',
             position: 'B',
-            salary: 14,
+            salary: 19,
           },
           {
             name: 'RJ Harvey',
             position: 'B',
-            salary: 16,
+            salary: 21,
           },
           {
             name: 'Deebo Samuel',
             position: 'B',
-            salary: 7,
-          },
-          {
-            name: 'Tucker Kraft',
-            position: 'B',
-            salary: 1,
+            salary: 12,
           },
           {
             name: 'Trevor Lawrence',
             position: 'B',
-            salary: 4,
-          },
-          {
-            name: 'Kaleb Johnson',
-            position: 'B',
-            salary: 2,
-          },
-          {
-            name: 'Josh Downs',
-            position: 'B',
-            salary: 2,
+            salary: 9,
           },
         ],
         salaryCap: 304,
@@ -413,94 +299,52 @@ export default {
         owner: 'Erik',
         players: [
           {
-            isKeeper: true,
             name: 'Jayden Daniels',
             position: 'QB',
-            salary: 32,
+            salary: 37,
           },
           {
             name: 'Jonathan Taylor',
             position: 'RB',
-            salary: 40,
+            salary: 45,
           },
           {
-            name: 'Nick Chubb',
-            position: 'RB',
-            salary: 2,
-          },
-          {
-            isKeeper: true,
             name: "Ja'Marr Chase",
             position: 'WR',
-            salary: 20,
+            salary: 25,
           },
           {
             name: 'Amon-Ra St. Brown',
             position: 'WR',
-            salary: 66,
+            salary: 71,
           },
           {
             name: 'Trey McBride',
             position: 'TE',
-            salary: 45,
+            salary: 50,
           },
           {
             name: 'Emeka Egbuka',
             position: 'FLEX',
-            salary: 14,
+            salary: 19,
           },
           {
             name: 'Dak Prescott',
             position: 'OP',
-            salary: 40,
-          },
-          {
-            name: 'Broncos',
-            position: 'D/ST',
-            salary: 4,
+            salary: 45,
           },
           {
             name: 'Brandon Aubrey',
             position: 'K',
-            salary: 3,
-          },
-          {
-            name: 'Keon Coleman',
-            position: 'B',
-            salary: 4,
-          },
-          {
-            name: 'Matthew Golden',
-            position: 'B',
-            salary: 14,
-          },
-          {
-            name: 'Bryce Young',
-            position: 'B',
-            salary: 0,
-          },
-          {
-            name: 'Brenton Strange',
-            position: 'B',
-            salary: 0,
-          },
-          {
-            name: 'Isacc TeSlaa',
-            position: 'B',
-            salary: 6,
-          },
-          {
-            name: 'Braelon Allen',
-            position: 'B',
-            salary: 0,
+            salary: 8,
           },
           {
             name: 'Joe Mixon',
             position: 'B',
-            salary: 4,
+            salary: 9,
           },
         ],
-        salaryCap: 300,
+        salaryCap: 306,
       });
     },
 
@@ -510,94 +354,72 @@ export default {
         owner: 'Kevin',
         players: [
           {
-            isKeeper: true,
             name: 'CJ Stroud',
             position: 'QB',
-            salary: 10,
+            salary: 15,
           },
           {
             name: 'James Cook',
             position: 'RB',
-            salary: 40,
+            salary: 45,
           },
           {
             name: 'Jacory Croskey-Merritt',
             position: 'RB',
-            salary: 16,
+            salary: 21,
           },
           {
-            isKeeper: true,
             name: 'Xavier Worthy',
             position: 'WR',
-            salary: 24,
+            salary: 29,
           },
           {
             name: 'Davante Adams',
             position: 'WR',
-            salary: 50,
-          },
-          {
-            name: 'Colston Loveland',
-            position: 'TE',
-            salary: 10,
+            salary: 55,
           },
           {
             name: 'DK Metcalf',
             position: 'FLEX',
-            salary: 30,
+            salary: 35,
           },
           {
             name: 'Patrick Mahomes',
             position: 'OP',
-            salary: 35,
+            salary: 40,
           },
           {
             name: 'Texans',
             position: 'D/ST',
-            salary: 1,
-          },
-          {
-            name: 'Chris Boswell',
-            position: 'K',
-            salary: 0,
-          },
-          {
-            name: 'Travis Hunter',
-            position: 'B',
-            salary: 10,
+            salary: 6,
           },
           {
             name: 'Stefon Diggs',
             position: 'B',
-            salary: 6,
+            salary: 11,
           },
           {
             name: 'Michael Pittman Jr',
             position: 'B',
-            salary: 7,
-          },
-          {
-            name: 'Tank Bigsby',
-            position: 'B',
-            salary: 2,
+            salary: 12,
           },
           {
             name: 'Dalton Kincaid',
             position: 'B',
-            salary: 0,
+            salary: 5,
           },
           {
             name: 'Tyler Warren',
             position: 'B',
-            salary: 9,
+            salary: 14,
           },
           {
             name: 'Daniel Jones',
             position: 'B',
-            salary: 0,
+            salary: 5,
           },
         ],
-        salaryCap: 300,
+        salaryCap: 350,
       });
     },
 
@@ -607,94 +429,62 @@ export default {
         owner: 'Matt',
         players: [
           {
-            isKeeper: true,
             name: 'Lamar Jackson',
             position: 'QB',
-            salary: 25,
+            salary: 30,
           },
           {
             name: 'Bijan Robinson',
             position: 'RB',
-            salary: 67,
+            salary: 72,
           },
           {
             name: 'Josh Jacobs',
             position: 'RB',
-            salary: 42,
+            salary: 47,
           },
           {
-            isKeeper: true,
             name: 'Nico Collins',
             position: 'WR',
-            salary: 10,
+            salary: 15,
           },
           {
             name: 'Garrett Wilson',
             position: 'WR',
-            salary: 23,
+            salary: 28,
           },
           {
             name: 'Travis Kelce',
             position: 'TE',
-            salary: 19,
-          },
-          {
-            name: 'James Connor',
-            position: 'FLEX',
-            salary: 21,
+            salary: 24,
           },
           {
             name: 'Jameson Williams',
             position: 'OP',
-            salary: 19,
-          },
-          {
-            name: 'Steelers',
-            position: 'D/ST',
-            salary: 0,
-          },
-          {
-            name: 'Chase McLaughlin',
-            position: 'K',
-            salary: 1,
+            salary: 24,
           },
           {
             name: 'Zay Flowers',
             position: 'B',
-            salary: 13,
+            salary: 18,
           },
           {
             name: 'George Pickens',
             position: 'B',
-            salary: 16,
-          },
-          {
-            name: 'Tony Pollard',
-            position: 'B',
-            salary: 14,
+            salary: 21,
           },
           {
             name: 'Devonta Smith',
             position: 'B',
-            salary: 14,
+            salary: 19,
           },
           {
             name: 'Michael Penix',
             position: 'B',
-            salary: 10,
-          },
-          {
-            name: 'Jerry Jeudy',
-            position: 'B',
-            salary: 4,
-          },
-          {
-            name: 'Khalil Shakir',
-            position: 'B',
-            salary: 0,
+            salary: 15,
           },
         ],
-        salaryCap: 312,
+        salaryCap: 314,
       });
     },
 
@@ -706,92 +496,60 @@ export default {
           {
             name: 'Drake Maye',
             position: 'QB',
-            salary: 25,
+            salary: 30,
           },
           {
             name: 'Ashton Jeanty',
             position: 'RB',
-            salary: 50,
+            salary: 55,
           },
           {
             name: 'Bucky Irving',
             position: 'RB',
-            salary: 50,
+            salary: 55,
           },
           {
-            isKeeper: true,
             name: 'Brian Thomas Jr',
             position: 'WR',
-            salary: 9,
+            salary: 14,
           },
           {
-            isKeeper: true,
             name: 'Jaxon Smith-Njigba',
             position: 'WR',
-            salary: 7,
-          },
-          {
-            name: 'David Njoku',
-            position: 'TE',
-            salary: 4,
+            salary: 12,
           },
           {
             name: 'Justin Jefferson',
             position: 'FLEX',
-            salary: 65,
+            salary: 70,
           },
           {
             name: 'Breece Hall',
             position: 'OP',
-            salary: 23,
-          },
-          {
-            name: 'Patriots',
-            position: 'D/ST',
-            salary: 0,
-          },
-          {
-            name: 'Jake Elliott',
-            position: 'K',
-            salary: 0,
+            salary: 28,
           },
           {
             name: 'JJ McCarthy',
             position: 'B',
-            salary: 7,
-          },
-          {
-            name: 'Calvin Ridley',
-            position: 'B',
-            salary: 16,
-          },
-          {
-            name: 'Jakobi Meyers',
-            position: 'B',
-            salary: 3,
-          },
-          {
-            name: 'Jordan Mason',
-            position: 'B',
-            salary: 11,
+            salary: 12,
           },
           {
             name: 'Matthew Stafford',
             position: 'B',
-            salary: 2,
+            salary: 7,
           },
           {
             name: 'JK Dobbins',
             position: 'B',
-            salary: 9,
+            salary: 14,
           },
           {
             name: 'Dallas Goedert',
             position: 'B',
-            salary: 0,
+            salary: 5,
           },
         ],
-        salaryCap: 328,
+        salaryCap: 347,
       });
     },
 
@@ -807,90 +565,44 @@ export default {
         owner: 'Paco',
         players: [
           {
-            isKeeper: true,
             name: 'Joe Burrow',
             position: 'QB',
-            salary: 61,
+            salary: 66,
           },
           {
             name: 'Christian McCafferey',
             position: 'RB',
-            salary: 65,
+            salary: 70,
           },
           {
             name: 'Omarion Hampton',
             position: 'RB',
-            salary: 43,
+            salary: 48,
           },
           {
             name: 'Drake London',
             position: 'WR',
-            salary: 47,
+            salary: 52,
           },
           {
             name: 'Marvin Harrison Jr',
             position: 'WR',
-            salary: 30,
-          },
-          {
-            name: 'Evan Engram',
-            position: 'TE',
-            salary: 11,
+            salary: 35,
           },
           {
             name: "D'Andre Swift",
             position: 'FLEX',
-            salary: 17,
-          },
-          {
-            name: 'Justin Fields',
-            position: 'OP',
-            salary: 17,
-          },
-          {
-            name: 'Lions',
-            position: 'D/ST',
-            salary: 0,
-          },
-          {
-            name: 'Wil Lutz',
-            position: 'K',
-            salary: 0,
+            salary: 22,
           },
           {
             name: 'Jordan Addison',
             position: 'B',
-            salary: 5,
-          },
-          {
-            name: 'Brian Robinson Jr',
-            position: 'B',
-            salary: 2,
-          },
-          {
-            name: 'Austin Ekeler',
-            position: 'B',
-            salary: 0,
-          },
-          {
-            name: 'Keenan Allen',
-            position: 'B',
-            salary: 2,
+            salary: 10,
           },
           {
             name: 'Kyle Pitts',
             position: 'B',
-            salary: 0,
-          },
-          {
-            name: 'Jayden Higgins',
-            position: 'B',
-            salary: 0,
-          },
-          {
-            name: 'Tua Tagovailoa',
-            position: 'B',
-            salary: 0,
+            salary: 5,
           },
         ],
         salaryCap: 300,
@@ -907,94 +619,57 @@ export default {
         owner: 'Ryan',
         players: [
           {
-            isKeeper: true,
             name: 'Josh Allen',
             position: 'QB',
-            salary: 63,
+            salary: 68,
           },
           {
             name: 'Kyren Williams',
             position: 'RB',
-            salary: 40,
+            salary: 45,
           },
           {
             name: 'Aaron Jones',
             position: 'RB',
-            salary: 22,
-          },
-          {
-            name: 'Tyreek Hill',
-            position: 'WR',
-            salary: 39,
+            salary: 27,
           },
           {
             name: 'AJ Brown',
             position: 'WR',
-            salary: 47,
+            salary: 52,
           },
           {
-            isKeeper: true,
             name: 'TJ Hockenson',
             position: 'TE',
-            salary: 6,
+            salary: 11,
           },
           {
             name: 'DJ Moore',
             position: 'FLEX',
-            salary: 31,
+            salary: 36,
           },
           {
             name: 'Kyler Murray',
             position: 'OP',
-            salary: 30,
-          },
-          {
-            name: 'Bills',
-            position: 'D/ST',
-            salary: 0,
-          },
-          {
-            name: 'Tyler Bass',
-            position: 'K',
-            salary: 0,
-          },
-          {
-            name: 'Cam Ward',
-            position: 'B',
-            salary: 7,
-          },
-          {
-            name: 'Tyrone Tracy',
-            position: 'B',
-            salary: 6,
+            salary: 35,
           },
           {
             name: 'Jaylen Warren',
             position: 'B',
-            salary: 3,
+            salary: 8,
           },
           {
             name: 'Jayden Reed',
             position: 'B',
-            salary: 3,
-          },
-          {
-            name: 'Marvin Mims',
-            position: 'B',
-            salary: 0,
+            salary: 8,
           },
           {
             name: 'Travis Etienne',
             position: 'B',
-            salary: 1,
-          },
-          {
-            name: 'Elijah Arroyo',
-            position: 'B',
-            salary: 0,
+            salary: 6,
           },
         ],
-        salaryCap: 300,
+        salaryCap: 302,
       });
     },
 
@@ -1004,93 +679,77 @@ export default {
         owner: 'Wade',
         players: [
           {
-            isKeeper: true,
             name: 'Jared Goff',
             position: 'QB',
-            salary: 18,
+            salary: 23,
           },
           {
             name: 'Chase Brown',
             position: 'RB',
-            salary: 45,
+            salary: 50,
           },
           {
             name: 'Isaiah Pacheco',
             position: 'RB',
-            salary: 20,
+            salary: 25,
           },
           {
             name: 'Rome Odunze',
             position: 'WR',
-            salary: 11,
+            salary: 16,
           },
           {
             name: 'Courtland Sutton',
             position: 'WR',
-            salary: 32,
+            salary: 37,
           },
           {
             name: 'Sam LaPorta',
             position: 'TE',
-            salary: 29,
+            salary: 34,
           },
           {
             name: 'Ladd McConkey',
             position: 'FLEX',
-            salary: 43,
+            salary: 48,
           },
           {
             name: 'Bo Nix',
             position: 'OP',
-            salary: 50,
+            salary: 55,
           },
           {
             name: 'Vikings',
             position: 'D/ST',
-            salary: 0,
-          },
-          {
-            name: "Ka'imi Fairbairn",
-            position: 'K',
-            salary: 0,
+            salary: 5,
           },
           {
             name: 'David Montgomery',
             position: 'B',
-            salary: 15,
+            salary: 20,
           },
           {
             name: 'Tetairoa McMillan',
             position: 'B',
-            salary: 24,
+            salary: 29,
           },
           {
             name: 'Zach Charbonnet',
             position: 'B',
-            salary: 2,
+            salary: 7,
           },
           {
             name: 'Jauan Jennings',
             position: 'B',
-            salary: 1,
+            salary: 6,
           },
           {
             name: 'Cam Skattebo',
             position: 'B',
-            salary: 1,
-          },
-          {
-            name: 'Ollie Gordon',
-            position: 'B',
-            salary: 3,
-          },
-          {
-            name: 'Dylan Sampson',
-            position: 'B',
-            salary: 0,
+            salary: 6,
           },
         ],
-        salaryCap: 300,
+        salaryCap: 306,
       });
     },
   },

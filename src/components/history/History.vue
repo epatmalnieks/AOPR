@@ -13,21 +13,24 @@
     </option>
   </select>
   <draft-results-2025 v-if="selectedYear === 2025" />
+  <draft-results-2026 v-if="selectedYear === 2026" />
 </template>
 
 <script>
 import DraftResults2025 from './DraftResults2025.vue';
+import DraftResults2026 from '../draftResultsAndKeepers/DraftResults2026.vue';
 
 export default {
   components: {
     DraftResults2025,
+    DraftResults2026,
   },
 
   data() {
     return {
-      selectedYear: 2025,
+      selectedYear: null,
 
-      yearOptions: [2025],
+      yearOptions: [2025, 2026],
     };
   },
 };
