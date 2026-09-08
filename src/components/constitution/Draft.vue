@@ -31,5 +31,9 @@
       Cash leftover from the auction for each team will be added to the team's
       auction budget for the next year's draft ($50 maximum)
     </li>
+    <li>
+      Owners must draft an entire eligible roster — e.g., you can't put a WR in
+      the K spot.
+    </li>
   </ul>
 </template>

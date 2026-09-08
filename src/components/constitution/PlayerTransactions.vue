@@ -6,7 +6,12 @@
       Any player dropped from a team will be placed on waivers for a period of
       one day
     </li>
-    <li>Waiver order resets each week to the inverse order of the standings</li>
+    <li>Owners have a Player Acquisition Budget of $100 for the season.</li>
+    <li>The minimum offer for a waiver acquisition is $0.</li>
+    <li>
+      Waiver order resets each week to the inverse order of the standings and is
+      used in case of a tie.
+    </li>
     <li>
       Players that go unclaimed become free agents and can be added immediately
     </li>

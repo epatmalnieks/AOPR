@@ -124,6 +124,27 @@
   <ul>
     <li>Removing kickers and D/ST roster positions.</li>
   </ul>
+  <hr />
+  <h4>2026</h4>
+  <h5>Topics the league voted on and passed</h5>
+  <ul>
+    <li>
+      Change the Player Acquisition System to Free Agent Budget
+      <ul>
+        <li>Player Acquisition Budget: $100</li>
+        <li>Minimum Offer: $0</li>
+      </ul>
+    </li>
+    <li>
+      Owners must draft an entire eligible roster — e.g., you can't put a WR in
+      the K spot.
+    </li>
+  </ul>
+  <h5>Topics the league voted on and failed</h5>
+  <ul>
+    <li>Adding points for a home field advantage</li>
+    <li>Moving to Yahoo</li>
+  </ul>
 </template>
 
 <style lang="scss" scoped>
